@@ -2,9 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
-* determine et affiche si le nombre est e√gale
-* superieur et inferieure a zero
+/**
+* main - Entry point
+*
+* Description: 'the program's description'
+*
+*
+* Return: Always 0 (Success)
 */
 int main(void)
 {
