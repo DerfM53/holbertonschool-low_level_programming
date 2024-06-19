@@ -4,22 +4,17 @@
 *main - Entry point
 *
 *Description: programm affiche toute les lettres de l'alphabet
-*en minuscule et en majuscule avec un retour a la ligne
+*en minuscule
 *
 *Return: Always 0 (Success)
 */
-int char main(void);
+int main(void)
 {
-while
+char c;
+for (c = 'a'; c <= 'z'; ++c)
 {
-(a <= z) a++;
+putchar(c);
 }
-putchar(a);
-while
-{
-(A <= Z) A++;
-}
-putchar(A);
 putchar('\n');
 return (0);
 }
