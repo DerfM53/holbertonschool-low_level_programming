@@ -1,13 +1,21 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * main - point d'entrée du programme
+ * _putchar - affiche un ensemble de lettres
  *
  * Return: 0 si le programme s'exécute avec succès
  */
-int main(void)
+int _putchar(void)
 {
-_putchar(); /* Appelez la fonction _putchar */
+putchar('_');
+putchar('p');
+putchar('u');
+putchar('t');
+putchar('c');
+putchar('h');
+putchar('a');
+putchar('r');
+putchar('\n');
 return (0);
 }
-
