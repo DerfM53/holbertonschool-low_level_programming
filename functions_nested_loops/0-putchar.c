@@ -6,7 +6,7 @@
  *
  * Return: 0 si le programme s'exécute avec succès
  */
-int _putchar(void)
+int main(void)
 {
 putchar('_');
 putchar('p');
