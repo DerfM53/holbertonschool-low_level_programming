@@ -3,10 +3,10 @@
 /**
  * mul - multiplie a et b.
  *
- * @a: valeur
- * @b: valeur
+ * @a: premier entier
+ * @b: deuxieme entier
  *
- * return : la multiplication de a et b
+ * Return : la multiplication de a et b
  *
  */
 
