@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * mul - multiplie a et b.
+ * mul - Multiplie deux entiers.
  *
- * @a: premier entier
- * @b: deuxieme entier
+ * @a: Premier entier
+ * @b: Deuxieme entier
  *
- * Return : la multiplication de a et b
- *
+ * Return: le resultat de la multiplication de a par b
  */
 
 int mul(int a, int b)
