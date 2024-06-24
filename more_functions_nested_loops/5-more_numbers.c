@@ -9,14 +9,13 @@
 
 void more_numbers(void)
 {
-int n;
-int ligne;
+int n, ligne;
 
 for (ligne = 0; ligne < 10; ligne++)
 {
 	for (n = 0; n < 15; n++)
 	{
-	 if (n > 9)
+	if (n > 9)
 	{
 	 _putchar(n / 10 + '0');
 	}
