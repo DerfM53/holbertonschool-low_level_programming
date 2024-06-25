@@ -11,16 +11,16 @@ void more_numbers(void)
 {
 int n, ligne;
 
-for (ligne = 0; ligne < 10; ligne++)
-{
-	for (n = 0; n < 15; n++)
+	for (ligne = 0; ligne < 10; ligne++)
 	{
-	if (n > 9)
-	{
-	 _putchar(n / 10 + '0');
-	}
-	_putchar(n % 10 + '0');
-	}
+		for (n = 0; n < 15; n++)
+		{
+		if (n > 9)
+		{
+		_putchar(n / 10 + '0');
+		}
+		_putchar(n % 10 + '0');
+		}
 	_putchar('\n');
-}
+	}
 }
