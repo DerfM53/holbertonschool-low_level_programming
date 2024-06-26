@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _print_rev - Affiche une cha√Æne de caract√®redans l'ordre invers√es
+ * print_rev - Affiche une cha√Æne de caract√® dans l'ordre invers√es
  * et retour a la ligne
  *
  * @s: Pointeur vers la cha√Æne de caractre.√
