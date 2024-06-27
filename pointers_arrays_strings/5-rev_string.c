@@ -10,14 +10,21 @@
 void rev_string(char *s)
 {
 	char *end = s;
-	int temporaire;
+	char *start = s;
+	char temp;
 
 while (*end != '\0')
 {
 	end++;
 }
 end--;
-	for (; end >= s; end--)
+	while (start < end)
 	{
-	s = end;
-	}
+	temp = *start;
+	*start = *end;
+	*end = temp;
+
+	start++;
+	end--;
+}
+}
