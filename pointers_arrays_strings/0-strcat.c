@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _strcat - concatÃne deux chaines de
+ * my _strcat - concatÃne deux chaines de
  * caractÃres ensemble
  *
  * @dest: pointeur vers une chaine de caracteres.
@@ -10,7 +10,7 @@
  * Return: dest.
  */
 
-char *_strcat(char *dest, char *src)
+char *my_strcat(char *dest, char *src)
 {
 	int a = 0;
 	int b = 0;
