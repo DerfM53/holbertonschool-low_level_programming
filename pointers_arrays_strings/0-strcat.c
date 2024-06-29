@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _strcat - concat√ne deux chaines de
  * caract√res ensemble
