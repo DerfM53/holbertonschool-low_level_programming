@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _strcat - concatÃne deux chaines de
+ * *_strcat - concatÃne deux chaines de
  * caractÃres ensemble
  *
  * @dest: pointeur vers une chaine de caracteres.
