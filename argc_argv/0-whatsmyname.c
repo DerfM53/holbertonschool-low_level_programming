@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  *  main - imprime le premier argument passé au programme
  * @argc: nombre d'arguments passés au programme
