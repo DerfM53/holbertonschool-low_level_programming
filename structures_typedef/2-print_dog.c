@@ -2,10 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-* print_dog - imprime les valeurs de la structure dog
-* retourner par le pointeur *d, si il est NULL il return rien.
-* Si une ou plusieurs des variables de struct dog sont NULL
-* il imprime "nil"
+* print_dog - Affiche les valeurs de la structure dog
+ * @d: Pointeur vers la structure dog à affiche
+ *
+ * Cette fonction affiche les valeurs de la structure pointée par `d`
+ * Si `d` est NULL, la fonction ne fait rien. Si l'une des variables
+ * de la structure dog est NULL ou si l'âge est inférieur ou é
+ * elle affiche "nil".
 */
 void print_dog(struct dog *d)
 {
