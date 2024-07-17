@@ -1,3 +1,4 @@
+#include "function_pointers.h"
 #include <stdio.h>
 /**
 * array_iterator - Fonction qui exécute une fonction donnée sur chue
