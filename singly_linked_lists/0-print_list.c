@@ -1,21 +1,29 @@
-#include "list.h"
+#include "lists.h"
 #include <stdio.h>
 #include <stddef.h>
 /**
- * print_list: print list of all node
- * and value of all node
- * @len: value of node
- * Return: value of node
+ * print_list: print all the elements of a
+ * list_t list.
+ * @h: pointer to the head of the list
+ * Return: number of nodes
  */
 size_t print_list(const list_t *h)
 {
-	list_s *actual = list_t->str;
-
-	while (actuel != NULL)
+	size_t len = 0; /*compteur pour le nombre de noeud*/	
+	const list_t *actual = h; /*pointeur pour parcourir la liste*/
+	
+	while (actual != NULL) /*tand que le noeud actuel n'est pas NULL*/
 	{
-		printf("[%d] ", len, actual);
-		actual = actuel->next;
+		if (actual->str == NULL)/*si la chaine est NULL*/
+		{
+			printf("[0] (nil)\n");/*afficher [0] (nil)*/
+		}
+		else/*si la chaine n'est pas NULL*/
+		{
+			printf("[%u] %s\n", actual->len, actual->str);
+		}
+		len++;/*incrementer compteur*/
+		actual = actual->next;/*passer au noeud suivant*/
 	}
-	printf("[0] (nil)");
-	return (len);
+	return (len);/*retourner le nombre de noeud*/
 }
