@@ -11,6 +11,9 @@ size_t print_dlistint(const dlistint_t *h)
 	size_t nbNode = 0;
 	const dlistint_t *actual = h;
 
+	if (h == NULL)
+		return (0);
+
 	while (actual != NULL)
 	{
 	printf("%d\n", actual->n);
