@@ -1,7 +1,7 @@
 #include "lists.h"
 #include <stdio.h>
 #include <stddef.h>
-/*
+/**
 * print_list - Prints the elements of a linked list of type list_t
 * this function traverses a linked list of type list_t,
 * displaying for each element the length of the string (len) and the
